@@ -1,0 +1,9 @@
+
+server:  port: 9192
+  servlet:    context-path: /obs-api
+
+spring:  application:    name: obs-api
+
+    
+eureka:  client:    service-url: 
+     defaultZone: http://localhost:9191/eureka      
